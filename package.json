@@ -68,6 +68,7 @@
     "dev": "vite",
     "ffmpeg-server": "node scripts/local-ffmpeg-server.js",
     "knip": "knip",
-    "lint": "eslint ."
+    "lint": "eslint .""railway:install": "npm install --legacy-peer-deps",
+    "preinstall": "npm install --legacy-peer-deps"
   }
 }
